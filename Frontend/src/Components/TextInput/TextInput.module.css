@@ -1,0 +1,22 @@
+.inputWrapper{ 
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+    align-items: center;
+}
+
+.inputWrapper input{
+    padding: 9px 15px;
+    margin:  8px;
+    outline: none;
+    width: 40%;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.errormessage{
+    color: #de1b55;
+    text-align: left;
+    width: 30%;
+}
